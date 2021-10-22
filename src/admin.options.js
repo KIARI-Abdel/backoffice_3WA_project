@@ -13,7 +13,7 @@ const options = {
         softwareBrothers: false,
         logo: false,
     },
-    resources: [AdminUser, {
+    resources: [{
         resource: Demande,
         options: {
             parent: {
@@ -21,7 +21,7 @@ const options = {
                 icon: 'fas fa-home',
             }
         }
-    }],
+    }, AdminUser],
 };
 
 module.exports = options;

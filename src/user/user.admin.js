@@ -11,7 +11,7 @@ const {
 const options = {
     properties: {
         encryptedPassword: {
-            isVisible: false,
+            isVisible: true,
         },
         password: {
             type: 'password',
